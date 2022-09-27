@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Small Math Play</title>
+</head>
+
+<body>
+    <section class="homepage">
+        <div class="container">
+            <div class="home-cont">
+                <h1>Relaxing Math Play </h1>
+                <p>Just some small maths for mind refreshing</p>
+            </div>
+            <div class="home-flex d-flex">
+                <div class="input">
+                    <h3>Please enter your choices to start the Play</h3>
+                    <div class="select-range">
+                        <label for="range">Range Of Numbers</label>
+                        <select name="range" id="rang" place-holder="Range">
+                            <option value="9">0-10</option>
+                            <option value="19">0-20</option>
+                            <option value="49">0-50</option>
+                            <option value="99">0-100</option>
+                            <option value="499">0-500</option>
+                        </select>
+                    </div><br>
+                    <div class="select-operator">
+                        <label for="operator">
+                            Enter the operator
+                        </label>
+                        <select name="operator" id="oper" place-holder="Operator">
+                            <option value="add">+</option>
+                            <option value="sub">-</option>
+                            <option value="mul">x</option>
+                            <option value="divi">/</option>
+                        </select>
+                    </div>
+                    <div class="submit-btn d-flex">
+                        <button id="inp-start">Start Game</button>
+                    </div>    
+                </div>
+                <div class="workarea d-flex">
+                    <div class="problems"></div>
+                </div>
+            </div>
+    </section>
+<script src="script.js"></script>
+</body>
+
+</html>
