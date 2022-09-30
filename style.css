@@ -1,0 +1,80 @@
+/* Home Page */
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin:0;
+}
+.d-flex{
+    display: flex;
+}
+.homepage{
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.home-cont{
+    text-align: center;
+    padding: 2rem 0 5rem 0;
+}
+.home-cont h1{
+    font-size: 2.5rem;
+    color: rgba(18, 123, 243, 0.815);
+    font-weight: 600;
+}
+.home-cont p{
+    font-size: 1rem;
+    color: rgba(128, 128, 128, 0.568);
+}
+.home-flex{
+    justify-content: space-between;
+    width: 100%;
+}
+.input{
+    border-right: 3px rgb(206, 197, 122) solid;
+    height: 100vh;
+    width: 30%;
+    padding: 2rem;
+}
+.input h3{
+    color: darkkhaki;
+    font-weight: 400;
+}
+.input p{
+    color: rgba(128, 128, 128, 0.568);
+}
+.select-range{
+    box-shadow: 5px 2px 10px rgba(128, 93, 226, 0.418);
+    padding: 1rem;
+}
+.select-operator{
+    box-shadow: 5px 2px 10px rgba(128, 93, 226, 0.418);
+    padding: 1rem;
+}
+.submit-btn{
+    justify-content: center;
+    margin: 2.5rem 0;
+}
+#inp-start{
+    padding: 1rem;
+    text-align: center;
+    background-color: rgba(243, 152, 14, 0.705);
+    color: #fff;
+    font-size: 1rem;
+    border: 2px solid rgba(243, 152, 14, 0.705);
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgba(243, 152, 14, 0.705);
+}
+.workarea{
+    width: 65%;
+    flex-wrap: wrap;
+}
+.problems{
+    width: 24%;
+}
